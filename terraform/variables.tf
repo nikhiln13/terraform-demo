@@ -14,3 +14,7 @@ variable "ami_id" {
 variable "instance_name" {
   default = "docker-website"
 }
+
+variable "image_url" {
+  description = "Docker image URL"
+}
